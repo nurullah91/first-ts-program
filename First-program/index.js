@@ -1,0 +1,12 @@
+var userName = "MD NURULLAH BHUIYAN";
+console.log(userName);
+userName = "123";
+var firstName;
+var lastName;
+var fullName;
+var userId;
+firstName = "Nurullah";
+lastName = " Bhuiyan";
+fullName = firstName.concat(lastName);
+userId = 123;
+console.log("My Name is ".concat(fullName, " and my user id is ").concat(userId));
